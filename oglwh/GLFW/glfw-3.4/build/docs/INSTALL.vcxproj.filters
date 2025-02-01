@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sepet\source\repos\oglwh\oglwh\GLFW\glfw-3.4\build\CMakeFiles\8836cc28adb06098bdfcf8494fd2e9f8\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{976E1DA8-657D-301E-AF60-8DC32A4A155F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

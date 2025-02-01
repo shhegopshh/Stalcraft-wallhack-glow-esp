@@ -1,0 +1,325 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Р’РµСЂСЃРёСЏ MSBuild 17.12.12+1cce77968 РґР»СЏ .NET Framework
+      РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 18.01.2025 23:24:30.
+      
+      РџСЂРѕРµРєС‚ "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+      PrepareForBuild:
+        РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "Debug\\".
+        РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+        РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        РЎРѕР·РґР°РЅРёРµ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+        РћР±СЂР°С‰РµРЅРёРµ Рє "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Р¤Р°Р№Р» "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+        РћР±СЂР°С‰РµРЅРёРµ Рє "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+      
+      РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+          РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+          РћС€РёР±РѕРє: 0
+      
+      РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.56
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/build/CMakeFiles/3.31.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-p9suso"
+      binary: "C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-p9suso"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-p9suso'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3ad8e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.12.12+1cce77968 РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 18.01.2025 23:24:31.
+        
+        РџСЂРѕРµРєС‚ "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9suso\\cmTC_3ad8e.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_3ad8e.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9suso\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_3ad8e.dir\\Debug\\cmTC_3ad8e.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_3ad8e.dir\\Debug\\cmTC_3ad8e.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_3ad8e.dir\\Debug\\cmTC_3ad8e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3ad8e.dir\\Debug\\\\" /Fd"cmTC_3ad8e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.42.34436 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3ad8e.dir\\Debug\\\\" /Fd"cmTC_3ad8e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9suso\\Debug\\cmTC_3ad8e.exe" /INCREMENTAL /ILK:"cmTC_3ad8e.dir\\Debug\\cmTC_3ad8e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-p9suso/Debug/cmTC_3ad8e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-p9suso/Debug/cmTC_3ad8e.lib" /MACHINE:X64  /machine:x64 cmTC_3ad8e.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_3ad8e.vcxproj -> C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9suso\\Debug\\cmTC_3ad8e.exe
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "cmTC_3ad8e.dir\\Debug\\cmTC_3ad8e.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_3ad8e.dir\\Debug\\cmTC_3ad8e.tlog\\cmTC_3ad8e.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9suso\\cmTC_3ad8e.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        
+        РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 0
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.52
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34436.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-dbp9d6"
+      binary: "C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-dbp9d6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-dbp9d6'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_54737.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.12.12+1cce77968 РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 18.01.2025 23:24:32.
+        
+        РџСЂРѕРµРєС‚ "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dbp9d6\\cmTC_54737.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_54737.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dbp9d6\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_54737.dir\\Debug\\cmTC_54737.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_54737.dir\\Debug\\cmTC_54737.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_54737.dir\\Debug\\cmTC_54737.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_54737.dir\\Debug\\\\" /Fd"cmTC_54737.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dbp9d6\\src.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.42.34436 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_54737.dir\\Debug\\\\" /Fd"cmTC_54737.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dbp9d6\\src.c"
+          src.c
+        C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dbp9d6\\src.c(1,10): error C1083: РќРµ СѓРґР°РµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» РІРєР»СЋС‡РµРЅРёРµ: pthread.h: No such file or directory, [C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dbp9d6\\cmTC_54737.vcxproj]
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dbp9d6\\cmTC_54737.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) СЃ РѕС€РёР±РєРѕР№.
+        
+        РћС€РёР±РєР° СЃР±РѕСЂРєРё.
+        
+        "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dbp9d6\\cmTC_54737.vcxproj" (С†РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) (1) ->
+        (Р¦РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ ClCompile) -> 
+          C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dbp9d6\\src.c(1,10): error C1083: РќРµ СѓРґР°РµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» РІРєР»СЋС‡РµРЅРёРµ: pthread.h: No such file or directory, [C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dbp9d6\\cmTC_54737.vcxproj]
+        
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 1
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.32
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-rqcq59"
+      binary: "C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-rqcq59"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-rqcq59'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_17868.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.12.12+1cce77968 РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 18.01.2025 23:24:32.
+        
+        РџСЂРѕРµРєС‚ "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rqcq59\\cmTC_17868.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_17868.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rqcq59\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_17868.dir\\Debug\\cmTC_17868.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_17868.dir\\Debug\\cmTC_17868.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_17868.dir\\Debug\\cmTC_17868.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17868.dir\\Debug\\\\" /Fd"cmTC_17868.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rqcq59\\CheckFunctionExists.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.42.34436 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17868.dir\\Debug\\\\" /Fd"cmTC_17868.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rqcq59\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rqcq59\\Debug\\cmTC_17868.exe" /INCREMENTAL /ILK:"cmTC_17868.dir\\Debug\\cmTC_17868.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-rqcq59/Debug/cmTC_17868.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-rqcq59/Debug/cmTC_17868.lib" /MACHINE:X64  /machine:x64 cmTC_17868.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: РЅРµ СѓРґР°РµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» "pthreads.lib" [C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rqcq59\\cmTC_17868.vcxproj]
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rqcq59\\cmTC_17868.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) СЃ РѕС€РёР±РєРѕР№.
+        
+        РћС€РёР±РєР° СЃР±РѕСЂРєРё.
+        
+        "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rqcq59\\cmTC_17868.vcxproj" (С†РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) (1) ->
+        (Р¦РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ Link) -> 
+          LINK : fatal error LNK1104: РЅРµ СѓРґР°РµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» "pthreads.lib" [C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rqcq59\\cmTC_17868.vcxproj]
+        
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 1
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.40
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-q76mp3"
+      binary: "C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-q76mp3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-q76mp3'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c4856.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.12.12+1cce77968 РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 18.01.2025 23:24:33.
+        
+        РџСЂРѕРµРєС‚ "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q76mp3\\cmTC_c4856.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_c4856.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q76mp3\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_c4856.dir\\Debug\\cmTC_c4856.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_c4856.dir\\Debug\\cmTC_c4856.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_c4856.dir\\Debug\\cmTC_c4856.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4856.dir\\Debug\\\\" /Fd"cmTC_c4856.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q76mp3\\CheckFunctionExists.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.42.34436 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4856.dir\\Debug\\\\" /Fd"cmTC_c4856.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q76mp3\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q76mp3\\Debug\\cmTC_c4856.exe" /INCREMENTAL /ILK:"cmTC_c4856.dir\\Debug\\cmTC_c4856.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-q76mp3/Debug/cmTC_c4856.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/sepet/source/repos/oglwh/oglwh/GLFW/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-q76mp3/Debug/cmTC_c4856.lib" /MACHINE:X64  /machine:x64 cmTC_c4856.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: РЅРµ СѓРґР°РµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» "pthread.lib" [C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q76mp3\\cmTC_c4856.vcxproj]
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q76mp3\\cmTC_c4856.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) СЃ РѕС€РёР±РєРѕР№.
+        
+        РћС€РёР±РєР° СЃР±РѕСЂРєРё.
+        
+        "C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q76mp3\\cmTC_c4856.vcxproj" (С†РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) (1) ->
+        (Р¦РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ Link) -> 
+          LINK : fatal error LNK1104: РЅРµ СѓРґР°РµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» "pthread.lib" [C:\\Users\\sepet\\source\\repos\\oglwh\\oglwh\\GLFW\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q76mp3\\cmTC_c4856.vcxproj]
+        
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 1
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.39
+        
+      exitCode: 1
+...
